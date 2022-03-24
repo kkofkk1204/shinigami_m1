@@ -92,7 +92,7 @@ Remember to update the title and description the `public/index.html` file
 
 ```html
 <title>SHINIGAMI-MINT</title>
-<meta name="description" content="Mint your Stripes NFT" />
+<meta name="description" content="Shinigami Mint Page" />
 ```
 
 Also remember to update the short_name and name fields in the `public/manifest.json` file
