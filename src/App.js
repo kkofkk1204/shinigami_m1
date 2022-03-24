@@ -15,7 +15,7 @@ export const StyledButton = styled.button`
   background-color: var(--secondary);
   padding: 10px;
   font-weight: bold;
-  color: var(--secondary-text);
+  color:  #000000;
   width: 100px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
@@ -73,6 +73,8 @@ export const StyledLogo = styled.img`
   transition: width 0.5s;
   transition: height 0.5s;
 `;
+
+
 
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
@@ -206,9 +208,6 @@ function App() {
 
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
-          </s.Container>
           <s.SpacerLarge />
           <s.Container
             flex={2}
@@ -253,7 +252,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  ETH : 0.08 / Mint
+                  ETH : 0.088 / Mint
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -359,13 +358,6 @@ function App() {
             <s.SpacerMedium />
           </s.Container>
           <s.SpacerLarge />
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
-              alt={"example"}
-              src={"/config/images/example.gif"}
-              style={{ transform: "scaleX(-1)" }}
-            />
-          </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
