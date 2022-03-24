@@ -91,7 +91,7 @@ Now you will need to create and change the `public/favicon.ico`, `public/logo192
 Remember to update the title and description the `public/index.html` file
 
 ```html
-<title>The Stripes NFT</title>
+<title>SHINIGAMI-MINT</title>
 <meta name="description" content="Mint your Stripes NFT" />
 ```
 
@@ -99,8 +99,8 @@ Also remember to update the short_name and name fields in the `public/manifest.j
 
 ```json
 {
-  "short_name": "TSNFT",
-  "name": "The Stripes NFT"
+  "short_name": "SHINIGAMI-MINT",
+  "name": "SHINIGAMI-MINT"
 }
 ```
 
