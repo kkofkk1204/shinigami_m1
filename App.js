@@ -222,7 +222,7 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 40,
                 color: "var(--accent-text)",
               }}
             >
